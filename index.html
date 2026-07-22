@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rabin Rahman</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <span class="nav-logo">RR</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-blobs">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Creative Computing Graduate · Bath Spa University</p>
+      <h1 class="hero-name">Rabin<br /><span class="outline-text">Rahman</span></h1>
+      <p class="hero-tagline">Full-Stack Developer · UI/UX Designer · Game Developer<br/>Building things that are both <em>functional</em> and <em>beautiful</em>.</p>
+      <div class="hero-cta">
+        <a href="#work" class="btn btn-primary">View My Work</a>
+        <a href="assets/rabin-rahman-cv.pdf" class="btn btn-ghost" target="_blank">Download CV</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">scroll ↓</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-photo-wrap">
+          <div class="about-photo-placeholder">
+            <img src="assets/pic.png" alt="Your Photo" class="about-photo" />
+          </div>
+        </div>
+        <div class="about-text">
+          <p class="section-label">About Me</p>
+          <h2>Design thinker.<br />Code builder.<br />Creative problem-solver.</h2>
+          <p>I'm Rabin Rahman — a Creative Computing student at Bath Spa University who builds things that work and look great.</p>
+          <p>Full-stack apps, Unity games, Android apps, UX design, machine learning — I've shipped real projects across the full spectrum of creative technology.</p>
+          <div class="about-cta">
+            <a href="assets/rabin-rahman-cv.pdf" class="btn btn-primary" target="_blank">Download CV</a>
+            <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="work section" id="work">
+    <div class="container">
+      <p class="section-label">Selected Work</p>
+      <h2 class="section-title">Projects</h2>
+
+      <!-- TOP FEATURED PROJECTS -->
+      <div class="featured-grid">
+
+        <article class="project-card featured">
+          <div class="project-img-wrap">
+            <img src="assets/dentacare.png" alt="DentaCare" onerror="this.parentElement.innerHTML='<div class=project-img-placeholder>DentaCare Screenshot</div>'" />
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Full-Stack Web App</span>
+            <h3>DentaCare</h3>
+            <p>A complete full-stack dental clinic web application with Google OAuth login, real-time appointment booking with live slot availability, and an admin dashboard. Built with Node.js, Express, and MongoDB — deployed live.</p>
+            <div class="tech-stack">
+              <span>Node.js</span><span>Express</span><span>MongoDB</span><span>JavaScript</span><span>Google OAuth</span>
+            </div>
+            <div class="project-links">
+              <a href="https://dentacare-kj2y.onrender.com" class="link-arrow">Live Site →</a>
+              <a href="https://github.com/ROBINXKO/Denta-care.git" class="link-arrow" target="_blank">GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card featured">
+          <div class="project-img-wrap">
+            <img src="assets/filleheart.png" alt="Fill Le Heart" onerror="this.parentElement.innerHTML='<div class=project-img-placeholder>Fill Lè Heart Screenshot</div>'" />
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Real Client Website</span>
+            <h3>Fill Lè Heart</h3>
+            <p>A real client project — designed and built a fully responsive website for India's first Omani Halwa brand as part of the Creative Industry Challenge. Secured the collaboration, designed in Figma, built and deployed live on Vercel.</p>
+            <div class="tech-stack">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Figma</span><span>Vercel</span>
+            </div>
+            <div class="project-links">
+              <a href="https://fillehearts.vercel.app/index.html" class="link-arrow" target="_blank">Live Site →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card featured">
+          <div class="project-img-wrap">
+            <img src="assets/poolme.png" alt="Poolme" onerror="this.parentElement.innerHTML='<div class=project-img-placeholder>Poolme Screenshot</div>'" />
+          </div>
+          <div class="project-info">
+            <span class="project-tag">UI / UX Design</span>
+            <h3>Poolme</h3>
+            <p>A full UX design project for a carpooling mobile application. Conducted user research, competitor analysis, wireframing, and iterative design cycles to deliver a fully interactive high-fidelity Figma prototype with real user testing.</p>
+            <div class="tech-stack">
+              <span>Figma</span><span>User Research</span><span>Prototyping</span><span>User Testing</span>
+            </div>
+            <div class="project-links">
+              <a href="https://www.figma.com/proto/rA5w4mt4DP6S71FAF5pSi1/Poolme-App-UI-Design?node-id=4205-470&p=f&t=GSyzkQV7ste5IK3j-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4205%3A470" class="link-arrow" target="_blank">View Prototype →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card featured">
+          <div class="project-img-wrap">
+            <img src="assets/formuladash.png" alt="Formula Dash 2D" onerror="this.parentElement.innerHTML='<div class=project-img-placeholder>Formula Dash Screenshot</div>'" />
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Game Development</span>
+            <h3>Formula Dash 2D</h3>
+            <p>A complete 2D endless F1 racing game designed and developed in Unity with C# scripting. Features increasing difficulty, custom game mechanics, and polished visuals — published publicly on itch.io.</p>
+            <div class="tech-stack">
+              <span>Unity</span><span>C#</span><span>Game Design</span><span>itch.io</span>
+            </div>
+            <div class="project-links">
+              <a href="https://robinxko.itch.io/formula-dash-2d" class="link-arrow" target="_blank">Play on itch.io →</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- SUPPORTING PROJECTS -->
+      <h3 class="sub-section-title">More Projects</h3>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-img-wrap">
+            <img src="assets/invio.png" alt="INVIO" onerror="this.parentElement.innerHTML='<div class=project-img-placeholder>INVIO Screenshot</div>'" />
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Web Development</span>
+            <h3>INVIO</h3>
+            <p>A live event invitation web platform with clean UI and responsive layout. Designed and developed from scratch and deployed live on Vercel.</p>
+            <div class="tech-stack">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://invio-invites.vercel.app/" class="link-arrow" target="_blank">Live Site →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-img-wrap">
+            <img src="assets/loanestimator.png" alt="Loan Estimator" onerror="this.parentElement.innerHTML='<div class=project-img-placeholder>Loan Estimator Screenshot</div>'" />
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Machine Learning</span>
+            <h3>Loan Estimator</h3>
+            <p>A Random Forest Regression ML model trained on the German Credit Dataset to predict realistic loan amounts. Features an interactive Gradio UI for real-time predictions — published on Kaggle.</p>
+            <div class="tech-stack">
+              <span>Python</span><span>scikit-learn</span><span>Gradio</span><span>Kaggle</span>
+            </div>
+            <div class="project-links">
+              <a href="https://www.kaggle.com/code/robinxko/loan-estimator" class="link-arrow" target="_blank">View on Kaggle →</a>
+              <a href="https://youtu.be/9kAPhVO5gsQ" class="link-arrow" target="_blank">Demo Video →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-img-wrap">
+            <img src="assets/chromix.png" alt="Chromix" onerror="this.parentElement.innerHTML='<div class=project-img-placeholder>Chromix Screenshot</div>'" />
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Android App</span>
+            <h3>Chromix</h3>
+            <p>An Android RGB colour calculator app with real-time colour mixing and live visual output. Built in Android Studio using Kotlin.</p>
+            <div class="tech-stack">
+              <span>Android Studio</span><span>Kotlin</span><span>Java</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/DC-BSU-RAK/nan-calculator-ROBINXKO.git" class="link-arrow" target="_blank">GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-img-wrap">
+            <img src="assets/productiv.png" alt="Productiv" onerror="this.parentElement.innerHTML='<div class=project-img-placeholder>Productiv Screenshot</div>'" />
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Android App</span>
+            <h3>Productiv</h3>
+            <p>A full-featured Android task management app with complete CRUD functionality — create, read, update and delete tasks. Built in Android Studio using Kotlin.</p>
+            <div class="tech-stack">
+              <span>Android Studio</span><span>Kotlin</span><span>Java</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/DC-BSU-RAK/second-app-ROBINXKO.git" class="link-arrow" target="_blank">GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <p class="section-label">What I Know</p>
+      <h2 class="section-title">Skills & Tools</h2>
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <h4>Web Development</h4>
+          <ul>
+            <li>HTML / CSS / JavaScript</li>
+            <li>Node.js / Express.js</li>
+            <li>MongoDB</li>
+            <li>REST APIs & OAuth</li>
+            <li>Git & GitHub</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h4>Design & UX</h4>
+          <ul>
+            <li>Figma</li>
+            <li>UI / UX Design</li>
+            <li>Wireframing & Prototyping</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h4>Creative Tech</h4>
+          <ul>
+            <li>Unity & C# (Game Dev)</li>
+            <li>Android Studio (Kotlin)</li>
+            <li>Python</li>
+            <li>Machine Learning</li>
+            <li>Data Visualisation</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h4>Professional</h4>
+          <ul>
+            <li>Client Communication</li>
+            <li>Project Management</li>
+            <li>Research & Analysis</li>
+            <li>Iterative Design Process</li>
+            <li>Collaborative Teamwork</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container contact-inner">
+      <p class="section-label">Let's Talk</p>
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-sub">Open to opportunities, collaborations, and creative projects.</p>
+      <div class="contact-email-wrap">
+        <span class="contact-email-label">EMAIL</span>
+        <a href="mailto:rabinrahman04@gmail.com" class="contact-email-link">rabinrahman04@gmail.com</a>
+      </div>
+      <div class="social-links">
+        <a href="https://github.com/ROBINXKO" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/rabin-rahman" target="_blank">LinkedIn</a>
+        <a href="https://www.kaggle.com/robinxko" target="_blank">Kaggle</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Rabin Rahman</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
