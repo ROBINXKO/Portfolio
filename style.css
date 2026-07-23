@@ -220,6 +220,28 @@ ul { list-style: none; }
 .about-text p { color: var(--c-muted); margin-bottom: 16px; font-size: 1rem; }
 .about-cta { display: flex; gap: 16px; margin-top: 24px; flex-wrap: wrap; }
 
+.philosophy {
+  margin-top: 24px;
+  padding: 20px 24px;
+  border-left: 3px solid var(--c-accent3);
+  background: rgba(0,229,195,0.05);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.philosophy-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--c-accent3);
+  margin-bottom: 8px;
+}
+.philosophy-text {
+  color: var(--c-muted);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  font-style: italic;
+}
+
 /* WORK — FEATURED GRID */
 .work { background: var(--c-bg); }
 .featured-grid {
@@ -438,3 +460,4 @@ ul { list-style: none; }
   .blob, .hero-scroll-hint { animation: none; }
   * { transition: none !important; }
 }
+
